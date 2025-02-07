@@ -4,9 +4,15 @@
  - 본 프로젝트는 공개 프로젝트로 미리 지정된 작업자분들을 초대하여 진행합니다.
 
 
-### Spec
+### Learning goals
 
- - ASP.NET MVC
- - JQuery
-
-
+ - Swagger on ASP.NET Core Web-API (Minimal API)
+ - Asp.NET Identity oAuth 2.0
+ - Modern C# in DotNet9
+ - EntityFramework
+ - CQRS with MediatR
+ - AuthMapper
+ - Vue3 Composition API
+ - Clean Architecture
+ - Redis
+ - SignalR
