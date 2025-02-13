@@ -16,3 +16,8 @@
  - Clean Architecture
  - Redis
  - SignalR
+ 
+	
+ ### Development
+
+  - [Entities Structure](https://github.com/roslyndev/PortfolioV2/tree/main/Backend)

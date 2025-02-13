@@ -3,7 +3,7 @@
  - CineVerse는 간단한 영화 리뷰 및 추천 사이트 입니다.
 
 
-### Structure
+### Entities Structure
 
 ```mermaid
 classDiagram
@@ -12,8 +12,8 @@ classDiagram
     User <|-- Comment
     User : +String email
     User : +String nickname
-    User: +isMammal()
-    User: +mate()
+    User: +invite()
+    User: +share()
     class Scene{
       +String Title
       +String Thumbnail
