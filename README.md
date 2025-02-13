@@ -20,4 +20,4 @@
 	
  ### Development
 
-  - [Entities Structure](https://github.com/roslyndev/PortfolioV2/tree/main/Backend)
+  - [Entities Structure](https://github.com/roslyndev/PortfolioV2/blob/main/Structure.md)
