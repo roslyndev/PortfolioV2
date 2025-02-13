@@ -7,7 +7,7 @@
 ### Learning goals
 
  - Swagger on ASP.NET Core Web-API (Minimal API)
- - Asp.NET Identity oAuth 2.0
+ - Asp.NET Identity 
  - Modern C# in DotNet9
  - EntityFramework
  - CQRS with MediatR
