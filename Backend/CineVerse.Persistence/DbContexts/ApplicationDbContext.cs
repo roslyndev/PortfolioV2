@@ -1,4 +1,4 @@
-﻿using GN2.AppSign.Library.Entities;
+﻿using CineVerse.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace CineVerse.Persistence.DbContexts;
@@ -9,13 +9,13 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    public DbSet<ApplicationUser> Members { get; set; }
+    public DbSet<CineUser> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
 
-        builder.ApplyConfiguration(new ApplicationUserConfiguration());
+        builder.ApplyConfiguration(new CineUserConfiguration());
     }
 }
 
